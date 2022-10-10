@@ -1,0 +1,733 @@
+/*
+ * Styles for react-notification
+ */
+
+
+.notification {
+    background-color: white !important;
+    box-shadow: 0px 0px 13px 0px rgb(82 63 105 / 15%);;
+    border-radius: 7px;
+}
+
+.notification::before {
+    color: rgba(0, 0, 0, 0.8) !important;
+}
+.mymenumbl svg{
+    height: 3rem !important;
+    width: 3rem !important;
+}
+.notification-message .title {
+    color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.notification-message .message {
+    color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.MuiPaper-root {
+    box-shadow: 0px 0px 13px 0px rgb(82 63 105 / 15%) !important; 
+}
+
+.MuiPaper-rounded {
+    border-radius: 7px !important;
+}
+
+.MuiButton-root {
+    text-transform: capitalize !important;
+    border-radius: 4px !important;
+}
+
+.MuiTab-root {
+    text-transform: capitalize !important;
+}
+
+.MuiDropzoneArea-text {
+    color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.MuiDropzoneArea-icon {
+    color: rgba(0, 0, 0, 0.54) !important; 
+}
+.payment form {
+
+    min-width: unset;
+
+    overflow: hidden;
+}
+.cds-flex-fytym9g{
+    display: none !important;
+}
+.cds-flex-fytym9g{
+      display: none !important;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.closeIcon {
+    transition: 0.4s;
+}
+.closeIcon:hover {
+   
+    /* background-color: rgba(0, 0, 0, 0.2); */
+        /* background-color: (rgb(239, 239, 239), rgb(59, 59, 59)); */
+        background-color: rgba(0, 65, 193, 0.04);
+}
+button.coinbase-commerce-button {
+    border: 1px solid rgba(0, 65, 193, 0.5);
+    background-color: rgba(0, 65, 193, 0.04);
+    background: rgba(0, 65, 193, 0.04);
+    color: #0041C1;
+        font-family: Poppins,sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+        font-size: 0.875rem;
+     
+background:#fff
+}
+.myfrm {
+    padding: 11px 4px 11px 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #f8f9fa;
+    color: #495057;
+    font-family: Poppins, sans-serif;
+    width:100%;
+}
+
+.myfrm::placeholder {
+ /* padding-left: 10px; */
+color: #495057;
+font-family: Poppins, sans-serif;
+   
+}
+.myfrm:hover {
+   border: none;
+outline: none;
+}
+.myfrm:focus {
+    border: none;
+outline: none;
+}
+button.coinbase-commerce-button:hover {
+    border: 1px solid #1274E7;
+    background-color: rgba(0, 65, 193, 0.04);
+}
+
+.cardData {
+  background-color: white;
+    margin-top: 14px;
+  padding: 10px 20px 11px;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid rgb(200, 200, 200);
+  box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
+}
+
+
+/* .cardData:hover{
+    background-color: red;
+} */
+.pay-button{
+  padding: 0.7rem 2rem;
+  border-radius: 4px !important;
+  font-family: Poppins, sans-serif;
+  width: 100%;
+  margin: 1rem 0;
+  color: white;
+  font-weight: 500;
+  font-size: medium;
+  background-color: #1274E7;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
+  transition: box-shadow 500ms;
+  cursor: pointer;
+}
+.pay-button:disabled{
+  background-color: #afafaf;
+  box-shadow: none;
+  cursor: default;
+}
+.pay-button:disabled:hover{
+  box-shadow: none;
+}
+.pay-button:hover{
+  box-shadow: 2px 5px 15px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+.MuiDialog-paperWidthSm {
+    min-width: 600px;
+}
+.sle{
+    margin-left: 79% !important;
+}
+.MuiDropzoneSnackbar-successAlert {
+    background-color: #fff !important;
+}
+.MuiSnackbarContent-message{
+    color: #1274E7
+}
+.MuiDropzoneSnackbar-icon{
+    color: #1274E7
+}
+.MuiDropzoneSnackbar-infoAlert{
+background-color: #fff !important;
+}
+ @media screen and (max-width: 900px) {
+    .MuiDialog-paperWidthSm {
+            min-width: 350px;
+        }
+ }
+  @media screen and (max-width: 480px) {
+.sle {
+        margin-left: 67% !important;
+    }
+  }
+.eban input {
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 7px;
+    border-radius: 5px;
+        height: 42px;
+        width: 100%;
+}
+.eban input::placeholder {
+padding-left: 5px;
+color: rgb(134, 131, 131);
+font-family: Poppins,sans-serif;
+}
+
+.eban input:focus {
+    outline: none;
+ 
+
+}
+.eban input:active {
+
+
+    outline: none;
+
+}
+.eban label {
+display: block;
+}
+.elements {
+    padding-top: 12px;
+    border: 1px solid #ccc;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+
+.elements_withdraw{
+    padding-top: 12px;
+
+    /* padding-bottom: 12px; */
+    border-radius: 5px;
+}
+
+.lnguageChangeButton:active{
+background-color: unset;
+}
+        
+        .newsteller{
+width: 105%;
+
+        }
+.languageButtonFlag img{
+height: auto !important;
+width: auto !important;
+}
+.mobileChart{
+    display: none;
+}
+.myCarasoulImg img{
+    /* -webkit-filter: drop-shadow(0px 0px 13px 0px rgb(82 63 105 ) );
+    filter: drop-shadow(0px 0px 13px 0px rgb(82 63 105)); */
+    box-shadow: 'rgb(82 63 105 / 15%) 0px 0px 13px 0px'
+}
+/* .notification-container{
+    background-color: #fff;
+    box-shadow: 0px 0px 13px 0px rgb(82 63 105 / 15%) !important;
+    padding: 0px;
+} */
+.notification-container{
+top: 50px !important;
+
+}
+.notification{
+opacity: 1 !important;
+}
+.notification-message h4{
+color: #1274E7 !important ;
+}
+.notification-message .title{
+    color:#1274E7 !important
+}
+.notification-message .message{
+        /* color: #0041C1 !important; */
+}
+.notification::before{
+    color: #1274E7 !important
+}
+@media screen and (max-width: 900px) {
+   .pychartGrid{
+min-height: unset !important;
+   }
+/* .recentTable {
+     display: unset; 
+} */
+
+
+.MuiTableCell-sizeSmall {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    padding: 6px 5px 6px ;
+    padding-right: 2px;
+}
+.MuiTableCell-root {
+    display: table-cell;
+
+    font-size: 0.875rem;
+    text-align: left;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+    vertical-align: inherit;
+    border: 1px solid #ccc;
+}
+
+.recentTable td {
+display: table-cell;
+
+font-size: 0.875rem;
+text-align: left;
+font-family: Poppins,
+sans-serif;
+font-weight: 400;
+line-height: 1.43;
+border-bottom: 1px solid rgba(224, 224, 224, 1);
+vertical-align: inherit;
+border: 1px solid #ccc;
+}
+}
+
+@media screen and (max-width: 1220px) {
+.mobileChart {
+    display: unset;
+}
+.recharts-legend-wrapper {
+    top: 173px;
+}
+   .mygridtpy{
+display: none;
+   }
+.recentTable td{
+    display: table-cell;
+    /* padding: 16px; */
+    padding: 3px;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    text-align: left;
+    font-family: Poppins,
+    sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+    vertical-align: inherit;
+    overflow: hidden;
+    text-align: center;
+}
+/* .recentTable{
+    display: none;
+} */
+
+}
+.recharts-legend-item {
+    display: block !;
+    display: block !important;
+
+    margin-top: 16px;
+    margin-left: 2%;
+}
+
+
+.recharts-legend-wrapper {
+    top: 255px;
+}
+.fa-solid {
+    padding-right: 5px !important;
+}
+/* button:disabled:hover{
+
+} */
+button.coinbase-commerce-button:disabled {
+    background: unset !important;
+    color: rgba(0, 0, 0, .4);
+    cursor: not-allowed;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.paybtns:disabled{
+    cursor: not-allowed;
+}
+.bottomDiv div {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.sheildIcon svg {
+    font-size: 43px;
+    /* vertical-align: middle; */
+        color: #5ac17b;
+}
+.sheildIcon {
+    margin-right: 9px;
+}
+
+.bottomDiv {
+
+    background-color: #effef5;
+
+    padding: 13px 17px;
+margin-top: 18px;
+    border-radius: 15px;
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #1274E7;
+  width: 150px;
+  height: 150px;
+  -webkit-animation: spin 1.7s linear infinite; /* Safari */
+  animation: spin 1.7s linear infinite;
+  margin-right: 3px;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.IbanField--ltr .BankIcon {
+    left: 3px !important;
+}
+
+.login_input input:focus{
+background-color: #fff;
+}
+.login_input input:active {
+    background-color: #fff;
+}
+.login_input input:hover {
+    background-color: #fff;
+}
+
+.forget:hover{
+text-decoration: underline;
+
+}
+
+.mytrm{
+    color: #0041C1;
+    cursor: pointer;
+}
+
+.mytrm:hover{
+    text-decoration: underline;
+}
+
+.PrivateSwitchBase-root-48 {
+
+    padding-left: 0 !important;
+}
+.remebermeBtnData .MuiIconButton-colorPrimary:hover {
+    background-color: unset;
+}
+.remebermeBtnData .MuiIconButton-colorPrimary:checked {
+    background-color: unset;
+}
+.remebermeBtnData .MuiIconButton-colorPrimary:checked:hover {
+    background-color: unset;
+}
+.remebermeBtnData .MuiCheckbox-colorPrimary.Mui-checked:hover {
+    background-color: unset;
+}
+
+
+.remebermeBtnData .MuiIconButton-colorPrimary:active {
+    background-color: unset;
+}
+.remebermeBtnData .MuiIconButton-colorPrimary:active:hover {
+    background-color: unset;
+}
+.remebermeBtnData .MuiIconButton-colorPrimary:focus {
+    background-color: unset;
+}
+
+.investMentDialogue{
+    display: none !important;
+}
+.logp .languageButtonFlag p img{
+    vertical-align: middle;
+}
+
+.logp .languageButtonFlag p span {
+    vertical-align: middle;
+    line-height: unset;
+    margin-left: 6px !important;
+}
+/* .iconData svg{
+    vertical-align: bottom;
+        height: 3rem;
+        width: 3rem;
+} */
+
+.sle{
+
+}
+
+.myBi .MuiInput-underline:before{
+border: none !important;
+    outline: none !important;
+    background-color: unset  !important;
+    background: unset !important;
+}
+.myBi .MuiInput-underline::after {
+    border: none !important;
+    outline: none !important;
+        background-color: unset !important;
+        background: unset !important;
+}
+.myBi .MuiInput-underline:hover {
+    border: none !important;
+        outline: none !important;
+            background-color: unset !important;
+            background: unset !important;
+}
+.myBi .MuiInput-underline:visited {
+    border: none !important;
+        outline: none !important;
+            background-color: unset !important;
+            background: unset !important;
+}
+.myBi .MuiInput-underline:active {
+    border: none !important;
+        outline: none !important;
+            background-color: unset !important;
+            background: unset !important;
+}
+.myBi .MuiInput-underline:focus {
+    border: none !important;
+    outline: none !important;
+        background-color: unset !important;
+        background: unset !important;
+}
+
+.myBi .MuiInput-underline::selection {
+    border: none !important;
+        outline: none !important;
+            background-color: unset !important;
+            background: unset !important;
+}
+
+.myBi .MuiSelect-select:focus{
+    background-color: unset !important;
+    background: unset !important;
+}
+.myBi .MuiMenu-paper{
+    left: 792px !important;
+}
+
+.mybySm{
+                    left: 5.7% !important;
+                    top: -0.5% !important;
+                        box-shadow: 'rgb(82 63 105 / 15%) 0px 0px 13px 0px' !important;
+}
+/* vertical-align: initial; */
+
+.myBi div{
+vertical-align: initial;
+}
+
+.crdtImg img{
+    width: 270px;
+        height: 222px;
+    
+}
+
+.ibnImg img{
+    width: 293px;
+        height: 235px;
+}
+
+.ibnImgWithdraw img{
+        width: 293px;
+            height: 227px;
+}
+
+.wiCr img{
+
+}
+
+.MuiButton-containedPrimary{
+    background-color: #1274E7  !important;
+            color: #fff !important;
+            border: none !important;
+}
+
+.myCarSoul div{
+border-radius: 26px !important;
+}
+.MuiButton-label {
+
+    text-transform: initial !important;
+}
+
+.MuiPaginationItem-textPrimary.Mui-selected {
+
+    background-color: #1274E7 !important;
+}
+
+.npdp{
+    display: none;
+}
+.mydbn{
+    margin-left: '10px',
+}
+@media screen and (max-width: 1112px) {
+
+
+    .logp {
+        /* marginLeft: '77%', */
+        margin-left: 70% !important;
+    }
+
+}
+@media screen and (max-width: 960px) {
+    .logp {
+            /* marginLeft: '77%', */
+            margin-left: 82% !important;
+        }
+
+}
+@media screen and (max-width: 820px) {
+
+
+    .logp {
+        /* marginLeft: '77%', */
+        margin-left: 82% !important;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+
+    .logp {
+        /* marginLeft: '77%', */
+        margin-left: 76% !important;
+    }
+
+}
+@media screen and (max-width: 540px) {
+    .logp {
+        /* marginLeft: '77%', */
+        margin-left: 72% !important;
+    }
+
+}
+@media screen and (max-width: 500px) {
+.logp{
+    /* marginLeft: '77%', */
+    margin-left: 63% !important;
+}
+
+}
+@media screen and (max-width: 500px) {
+    .forget{
+     width: unset !important;   
+    }
+    .logp {
+        /* marginLeft: '77%', */
+        margin-left: 63% !important;
+    }
+
+}
+@media screen and (max-width: 360px) {
+    
+
+    .logp {
+        /* marginLeft: '77%', */
+        margin-left: 59% !important;
+    }
+
+}
+@media screen and (max-width: 350px) {
+
+
+    .logp {
+        /* marginLeft: '77%', */
+        margin-left: 50% !important;
+    }
+
+}
+@media screen and (max-width: 280px) {
+
+
+    .logp {
+        /* marginLeft: '77%', */
+        margin-left: 46% !important;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+    .lgim {
+        /* marginLeft: '77%', */
+       display: none !important;
+    }
+
+}
+
+/* 1279.95px */
+
+@media screen and (max-width: 1200px) {
+ .np{
+     display: none;
+ }
+ .npd{
+    display: none;
+ }
+ .npdp {
+     display: block;
+ }
+ .mydbn {
+     margin-left: '0',
+ }
+ /* .myfrn{
+     width: 100%;
+ } */
+}
+.ibnImgwithdrawPopup img {
+    /* width: 333px;
+    height: 261px; */
+}
